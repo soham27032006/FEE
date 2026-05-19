@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>Food Palace </h1>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<section class="menu-page">
+
+    <h2>Main Course </h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7">
+            <h3>Paneer Butter Masala</h3>
+            <p>₹349</p>
+            <button onclick="addToCart('Paneer Butter Masala',349,'https://images.unsplash.com/photo-1544025162-d76694265947')">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a">            <h3>Biryani</h3>
+            <p>₹399</p>
+            <button onclick="addToCart('Biryani',399,'https://images.unsplash.com/photo-1603894584373-5ac82b2ae398')">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591">
+            <h3>Pizza</h3>
+            <p>₹299</p>
+            <button onclick="addToCart('Pizza',299)">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+            <h3>Burger</h3>
+            <p>₹199</p>
+            <button onclick="addToCart('Burger',199)">Add To Cart</button>
+        </div>
+
+    </div>
+
+    <h2>Beverages </h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1577805947697-89e18249d767">            <h3>Chocolate Shake</h3>
+            <p>₹179</p>
+            <button onclick="addToCart('Chocolate Shake',179,'https://images.unsplash.com/photo-1517701550927-30cf4ba1fdf2')">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1499638673689-79a0b5115d87">            <h3>Lemon Soda</h3>
+            <p>₹99</p>
+            <button onclick="addToCart('Lemon Soda',99,'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd')">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c">            <h3>Cold Coffee</h3>
+            <p>₹149</p>
+            <button onclick="addToCart('Cold Coffee',149)">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd">            <p>Mojito</p>
+            <button onclick="addToCart('Mojito',129)">Add To Cart</button>
+        </div>
+
+    </div>
+
+
+    <h2>Starters </h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1576107232684-1279f390859f">            <h3>French Fries</h3>
+            <p>₹99</p>
+            <button onclick="addToCart('French Fries',99)">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af">            <h3>Sandwich</h3>
+            <p>₹159</p>
+            <button onclick="addToCart('Sandwich',159)">Add To Cart</button>
+        </div>
+
+    </div>
+
+    <h2>Desserts </h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b">            <h3>Donuts</h3>
+            <p>₹129</p>
+            <button onclick="addToCart('Donuts',129,'https://images.unsplash.com/photo-1563805042-7684c019e1cb')">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c">            <h3>Brownie</h3>
+            <p>₹149</p>
+            <button onclick="addToCart('Brownie',149,'https://images.unsplash.com/photo-1578985545062-69928b1d9587')">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587">            <h3>Chocolate Cake</h3>
+            <p>₹179</p>
+            <button onclick="addToCart('Chocolate Cake',179)">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1560008581-09826d1de69e">           <p>Ice cream</p>
+            <button onclick="addToCart('Ice Cream',89)">Add To Cart</button>
+        </div>
+
+    </div>
+
+    <h2>Additionals </h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://4.imimg.com/data4/PM/AV/MY-2065301/liquid-cheese-500x500.jpg">           <h3>Extra Cheese</h3>
+            <p>₹49</p>
+            <button onclick="addToCart('Extra Cheese',49)">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://www.centercutcook.com/wp-content/uploads/2024/03/creamy-garlic-dip-3-768x512.jpg">         <h3>Garlic Dip</h3>
+            <p>₹39</p>
+            <button onclick="addToCart('Garlic Dip',39)">Add To Cart</button>
+        </div>
+        
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

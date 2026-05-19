@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Palace - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box" id="loginBox">
+
+    <h2>Login To Food Palace </h2>
+
+    <input type="text" id="phone"
+    placeholder="Enter Phone Number">
+
+    <button onclick="loginUser()">Login</button>
+
+</div>
+
+<nav>
+    <h1>Food Palace </h1>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+
+    <h2>Welcome To Food Palace</h2>
+
+    <p>Best Restaurant In The City </p>
+
+    <button onclick="goToMenu()">Order Now</button>
+
+    <button onclick="goToCart()">Payment</button>
+
+</section>
+
+<section class="special-section">
+
+    <h2> Most Ordered Items</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+            <h3>Burger</h3>
+            <p>Best Seller Item</p>
+            <button onclick="addToCart('Burger',199,'https://images.unsplash.com/photo-1568901346375-23c9450c58cd')">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591">
+            <h3>Pizza</h3>
+            <p>Customer Favorite</p>
+            <button onclick="addToCart('Pizza',299,'https://images.unsplash.com/photo-1513104890138-7c749659a591')">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9">
+            <h3>Pasta</h3>
+            <p>Italian Special</p>
+            <button onclick="addToCart('Pasta',249,'https://images.unsplash.com/photo-1553621042-f6e147245754')">Add To Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reviews</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>Food Palace </h1>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<section class="review-page">
+
+    <h2>Customer Reviews </h2>
+
+    <form onsubmit="submitReview(event)">
+
+        <input type="text" id="reviewName" placeholder="Enter Name" required>
+
+        <select id="rating">
+            <option>⭐</option>
+            <option>⭐⭐</option>
+            <option>⭐⭐⭐</option>
+            <option>⭐⭐⭐⭐</option>
+            <option>⭐⭐⭐⭐⭐</option>
+        </select>
+
+        <textarea id="reviewText" placeholder="Write Review"></textarea>
+
+        <button type="submit">Submit Review</button>
+
+    </form>
+
+    <div id="reviewContainer"></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
